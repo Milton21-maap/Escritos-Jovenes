@@ -1,0 +1,96 @@
+body {
+  background-color: #f6e58d;
+  padding: 5px;
+  display: block;
+  width: 1000px;
+  margin: auto;
+}
+header, article, form {
+  border: black 3px solid;
+  background-color: #f5f6fa;
+  margin: 5px;
+  padding: 5px;
+}
+.tzadi, footer {
+  background-color: #e45632;
+  align-items: left;
+  border: black solid 3px;
+  font-family: "Anta", sans-serif;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.tzadi li {
+  padding: 5px;
+  list-style: none;
+  display: inline-block;
+  border: solid black;
+  border-width: 0px 3px 0px 0px;
+  color: black;
+}
+.tzadi ul {
+  padding: 5px;
+  margin: 5px;
+}
+#Alpha {
+  width: 70px;
+  padding: 5px;
+}
+section {
+  background-color: #dfe6e9;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.One {
+  width: 200px 100px;
+  float: left;
+  margin: 3px;
+}
+.Two {
+  width: 300px 200px;
+  margin: 3px;
+  text-align: right;
+}
+.aleph {
+  margin: 0px;
+}
+.bet {
+  margin: 0px;
+}
+h1, h2, h3, h4 {
+  font-family: "Kanit", sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+p, label {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+}
+#psi {
+  text-align: center;
+  font-size: 40px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #1f90ac;
+  transition: all .2s;
+}
+a:visited{
+  color: #1f90ac;
+  transition: all .3s;
+}
+button{
+  margin: 20px;
+  background-color: beige;
+}
+button :hover{
+  background-color: #1f90ac;
+  transition: all .3s;
+}
